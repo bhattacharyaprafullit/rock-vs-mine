@@ -31,17 +31,23 @@ This is a simple machine learning project that uses **Logistic Regression** to c
    pip install pandas numpy scikit-learn
         Download the dataset and save it as sonar data.csv in your working directory.
 
-Example Prediction
-Example input:
+## 📌 Example Prediction
+
+### 🔢 Example Input
+```python
 input_data = (0.0307, 0.0523, 0.0653, 0.0521, 0.0611, ..., 0.0055)
-Predicted Output:
 ['R']
 The object is a Rock
-Model Performance
+📊 Model Performance
 Training Accuracy: ~83%
+
 Test Accuracy: ~76%
-Note: Accuracy may vary slightly due to the random nature of train-test split.
-Reference
-Dataset: UCI Sonar Dataset
-Author: Prafullit Bhattacharya
+
+⚠️ Note: Accuracy may vary slightly due to the random nature of train-test split.
+📚 Reference
+📄 Dataset: UCI Sonar Dataset
+
+👨‍💻 Author
+Name: Prafullit Bhattacharya
+
 Date: May 2025
